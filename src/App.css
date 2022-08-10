@@ -1,38 +1,72 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;700&display=swap');
+
+body{
+  background-color: hsl(235, 16%, 14%);
+  background-image: url(./bg-stars.svg);
+  font-family: 'Red Hat Text', sans-serif;
+}
+.launch{
+  width: 95%;
+  margin: 5% auto; 
+}
+.launch h1{
   text-align: center;
-}
+  color:  hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 8%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.launch-timer{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
+  margin: 2% auto;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.timer{
+  text-align: center;
+  background-color:  hsl(236, 21%, 26%);
+  color:  hsl(345, 95%, 68%);
+  width: 120px;
+  height: 120px;
+  padding: 20px;
+  /* margin: 0 3%; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.timer h3{
+  font-size: 70px;
+  margin-top: 0;
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: 700;
+  /* margin-bottom: 0; */
+}
+
+.timer-container p{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color:  hsl(0, 0%, 100%);
+  opacity: 0.6;
+}
+
+.socials{
+  background-image: url(./pattern-hills.svg);
+  height: 200px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+.social-icons{
+  margin: 8% auto;
+  width: 10%;
+  z-index: 1000;
+}
+
+.social-icons img{
+  margin: 0 8%;
 }

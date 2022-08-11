@@ -20,7 +20,7 @@ body{
 }
 .launch-timer{
   display: flex;
-  width: 50%;
+  width: 55%;
   margin: 2% auto;
   justify-content: space-between;
 }
@@ -68,5 +68,5 @@ body{
 }
 
 .social-icons img{
-  margin: 0 8%;
+  margin: 0 6%;
 }
